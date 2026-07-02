@@ -14,11 +14,6 @@ The workspace package name is `bimbo-assessment`; your clone folder may still be
 
 Visit **[http://localhost:8080](http://localhost:8080)**.
 
-## Sample apps
-
-- **[Brimble Sample App](https://github.com/chikeozulumba/brimble-sample-app)**
-- **[Netflix Clone](https://github.com/Cheemma1/Netflix-Clone)**
-
 ## Architecture
 
 ```
@@ -80,7 +75,7 @@ If the app reads **`PORT`** (any casing) from env with a numeric value **1–655
 
 **BuildKit + local registry** — Railpack builds need a remote BuildKit and a registry to push/pull; compose wires a minimal pair on the same network as the API.
 
-## What I'd do with another weekend
+## Pending work
 
 - Reconcile orphaned containers on API restart (Docker labels ↔ Postgres)
 - Zero-downtime redeploy: start new container, flip Caddy route, drain old
@@ -90,4 +85,3 @@ If the app reads **`PORT`** (any casing) from env with a numeric value **1–655
 ## Links
 
 - [Architecture](ARCHITECTURE.md)
-- Loom: *[to be recorded and linked]*
