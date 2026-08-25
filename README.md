@@ -1,4 +1,4 @@
-# Bimbo Take-Home
+# Bimbo Buildkit
 
 A miniature Bimbo: submit a Git URL, the API clones it, builds an OCI image with **Railpack** against a **BuildKit** daemon, pushes to a **local registry**, runs the image on the Docker host, and **Caddy** reverse-proxies public traffic at `/apps/<slug>/`. Build and deploy logs stream live to the UI (SSE + Postgres replay).
 
